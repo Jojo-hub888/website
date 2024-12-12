@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Useless Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #555;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff856c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to The Useless Website</h1>
+        <p>Click the button to visit a completely random and useless site!</p>
+        <button id="uselessButton">Take Me Somewhere Useless</button>
+    </div>
+
+    <script>
+        const sites = [
+            'https://www.staggeringbeauty.com/',
+            'https://pointerpointer.com/',
+            'https://heeeeeeeey.com/',
+            'https://eelslap.com/',
+            'https://corndog.io/',
+            'https://bouncingdvdlogo.com/',
+            'https://cat-bounce.com/',
+            'https://www.hackertyper.com/',
+            'https://zoomquilt.org/',
+            'https://thezen.zone/',
+            'https://www.trypap.com/',
+            'https://www.rainymood.com/',
+            'https://www.republiquedesmangues.fr/',
+            'https://www.patience-is-a-virtue.org/',
+            'https://ninjaflex.com/',
+            'https://thisissand.com/',
+            'https://www.papertoilet.com/',
+            'https://whitetrash.nl/',
+            'https://thatsthefinger.com/',
+            'https://cant-not-tweet-this.com/',
+            'https://iamawesome.com/',
+            'https://potato.io/',
+            'https://www.rrrgggbbb.com/',
+            'https://mondrianandme.com/',
+            'https://eelslap.com/',
+            'https://alwaysjudgeabookbyitscover.com/',
+            'https://creddle.io/',
+            'https://www.fallingfalling.com/',
+            'https://www.silkamilo.com/',
+            'https://www.fallingfalling.com/',
+            'https://unicodesnowmanforyou.com/',
+            'https://ihasabucket.com/',
+            'https://chrismckenzie.com/',
+            'https://randomcolour.com/',
+            'https://pleaselike.com/',
+            'https://www.leekspin.com/',
+            'https://doughnutkitten.com/',
+            'https://burymewithmymoney.com/',
+            'https://www.puginarug.com/',
+            'https://bongo.cat/',
+            'https://theuselessweb.com/',
+            'https://scroll-o-meter.club/',
+            'https://spaceis.cool/',
+            'https://www.purple.com/',
+            'https://weirdorconfusing.com/',
+            'https://hooooooooo.com/',
+            'https://www.koalastothemax.com/',
+            'https://puginarug.com/',
+            'https://www.loopedforinfinity.com/',
+            'https://remoji.com/',
+            'https://make-everything-ok.com/',
+            'https://chickenonaraft.com/',
+            'https://www.nooooooooooooooo.com/',
+            'https://crouton.net/',
+            'https://longdogechallenge.com/',
+            'https://www.ouaismaisbon.ch/',
+            'https://beesbeesbees.com/',
+            'https://www.pointerpointer.com/',
+            'https://www.staggeringbeauty.com/',
+            'https://www.electricboogiewoogie.com/',
+            'https://www.zoomquilt2.com/',
+            'https://www.eyesmaze.com/',
+            'https://www.flashbynight.com/drench/',
+            'https://isitchristmas.com/',
+            'https://nothingsforever.com/',
+            'https://endless.horse/',
+            'https://apod.nasa.gov/apod/astropix.html',
+            'https://weavesilk.com/',
+            'https://chrismckenzie.com/',
+            'https://neave.tv/',
+            'https://clickclickclick.click/',
+            'https://themysteryofgravityfalls.com/',
+            'https://www.xkcd.com/135/',
+            'https://codepen.io/jakealbaugh/full/gapjLd',
+            'https://eelslap.com/',
+            'https://spinningplates.io/',
+            'https://pixelsfighting.com/',
+            'https://www.movenowthinklater.com/',
+            'https://oddly-satisfying.com/',
+            'https://trumpdonald.org/',
+            'https://puginarug.com/',
+            'https://fallingfalling.com/',
+            'https://www.republiquedesmangues.fr/',
+            'https://cat-bounce.com/',
+            'https://pointerpointer.com/',
+            'https://strobe.cool/',
+            'https://www.enchroma.com/',
+            'https://thislandis.me/',
+            'https://clicktoremove.com/',
+            'https://www.drawastickman.com/',
+            'https://interactivehaiku.com/'
+        ];
+
+        const button = document.getElementById('uselessButton');
+
+        button.addEventListener('click', () => {
+            const randomSite = sites[Math.floor(Math.random() * sites.length)];
+            window.open(randomSite, '_blank');
+        });
+    </script>
+</body>
+</html>
